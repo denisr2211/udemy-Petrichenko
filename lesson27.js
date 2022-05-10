@@ -25,5 +25,5 @@ function test() {
 
 test();
 
-function doNothing() {};
+function doNothing() {}
 console.log(doNothing() === undefined);

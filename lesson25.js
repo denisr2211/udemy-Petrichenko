@@ -1,5 +1,3 @@
-"use strict";
-
 let num = 20;
 
 function showFirstMassage (text) {
@@ -37,7 +35,7 @@ console.log(anotherNum);
 /////////////////////////////////////////////////
 
 const logger = function() {
-    console.log("Hello")
+    console.log("Hello");
 };
 
 logger();
