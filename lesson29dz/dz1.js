@@ -17,12 +17,12 @@
 // calculateVolumeAndArea(-15) => 'При вычислении произошла ошибка';
 
 function calculateVolumeAndArea(edge) {
-    if (typeof(edge) !== 'number' && edge < 0 && !Number.isInteger(edge)) {
+    if (typeof(edge) !== 'number' || edge < 0 || !Number.isInteger(edge)) {
         return `При вычислении произошла ошибка`;   
     }
 
-    let volumeСube = edge * edge * edge;
-    let areaCube = 6 * edge * edge;
+    let = volumeСube = edge * edge * edge;
+    let = areaCube = 6 * edge * edge;
     
         return `Объем куба: ${volumeСube}, площаадь всей поверхности: ${areaCube}`;
 }
