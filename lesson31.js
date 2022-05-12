@@ -1,3 +1,5 @@
+// Callback- функции
+
 function first() {
     // Do something
     setTimeout(function() {
@@ -18,9 +20,7 @@ function learnJS(lang, callback) {
 }
 
 function done() {
-
+    console.log('Я прошел этот урок!');
 }
 
-learnJS('JavaScrip', function() {
-    console.log('Я прошел этот урок!');
-});
+learnJS('JavaScrip', done);
