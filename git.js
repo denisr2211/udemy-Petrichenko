@@ -26,3 +26,9 @@
 // git push -u origin main
 
 // git rm --cached filename.js   удалить фаил из индекса, но оставить локально
+
+
+// If there are only two commits you want to merge, and they are the "most recent two", the following commands can be used to combine the two commits into one:
+
+// git reset --soft "HEAD^"
+// // git commit --amend
