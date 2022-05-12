@@ -24,3 +24,5 @@
 // git remote add origin git@github.com:denisr2211/gergr.git
 // git branch -M main
 // git push -u origin main
+
+// git rm --cached filename.js   удалить фаил из индекса, но оставить локально
