@@ -11,7 +11,7 @@
 //  fib(0) => ""
 
 function fib(num) {
-    if (typeof(num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
+    if (typeof (num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
         return "";
     }
 
@@ -34,4 +34,4 @@ function fib(num) {
     return result;
 }
 
-console.log(fib(17));
+console.log(fib(3));
