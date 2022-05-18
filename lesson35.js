@@ -75,7 +75,7 @@ console.log(oldArray);
 
 ///////////////////////////////////////////////////
 
-const video = ['youyube', 'vimeo', 'ukrtube'],
+const video = ['youtube', 'vimeo', 'ukrtube'],
       blogs = ['wordpress', 'livejournal', 'blogger'],
       internet = [...video, ...blogs, 'instagram', 'facebook'];
 
@@ -102,4 +102,4 @@ const q = {
     two: 2
 };
 
-const newObj = {...q};
+// const newObj = {...q};
