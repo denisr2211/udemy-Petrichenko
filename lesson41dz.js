@@ -27,8 +27,6 @@ const restorantData = {
 function isOpen(prop) {
     let answer = '';
     prop ? answer = 'Открыто' : answer = 'Закрыто';
-
-    a=='b'?c=1:c=0;
 }
 
 console.log(isOpen(restorantData.openNow));

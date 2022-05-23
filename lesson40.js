@@ -17,7 +17,7 @@
 function createCounter() {
     let counter = 0;
 
-    const myFunction = function() {debugger
+    const myFunction = function() {
         counter = counter + 1;
         return counter;
     };
@@ -42,4 +42,4 @@ function foo(a,b) {
 }
  
 const result = foo(['Hello', 'Привет'], {ru: 'Мир', eng: 'World'});
-console.log(result)
+console.log(result);

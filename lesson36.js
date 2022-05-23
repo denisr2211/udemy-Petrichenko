@@ -1,7 +1,7 @@
 // 36. Основы ООП, прототипно-ориентированное наследование
 
 let str = "some";
-let strObj = new String(str);
+let strObj = newString(str);
 
 // console.log(typeof(str));    // string
 // console.log(typeof(strObj)); // object
