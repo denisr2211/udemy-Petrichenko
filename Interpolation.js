@@ -1,4 +1,3 @@
-"use strict";
 //Интерполяция (ES6)
 const category = 'toys';
 
